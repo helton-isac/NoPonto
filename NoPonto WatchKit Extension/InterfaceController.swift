@@ -24,6 +24,9 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var pickerWeight: WKInterfacePicker!
     @IBOutlet weak var pickerTemperature: WKInterfacePicker!
     
+    // MARK: - Properties
+    var kg: Double = 0.1
+    
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
